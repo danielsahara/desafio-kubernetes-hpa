@@ -1,7 +1,7 @@
 steps:
 - id: "Compilando"
   name : 'gcr.io/cloud-builders/go'
-  args: ['build', 'main.go']
+  args: ['build', 'calcular.go']
   dir: 'go/src'
   env: ["GOPATH=."]
 
