@@ -5,7 +5,7 @@ steps:
   dir: 'src'
   env: ["GOPATH=."]
 
-- id: "rodando testes unitarios"
+- id: "rodando testes unitarios 2"
   name: 'gcr.io/cloud-builders/go'
   args: ['test']
   dir: 'src'
